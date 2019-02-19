@@ -6,7 +6,7 @@ QT       += core gui widgets
 
 TEMPLATE = app
 TARGET = darktech
-INCLUDEPATH += . include/
+INCLUDEPATH += . include/ /usr/include
 
 CONFIG += link_pkgconfig
 PKGCONFIG += libbitcoin-database libczmq
